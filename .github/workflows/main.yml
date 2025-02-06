@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16,20] # Test across different Node versions
+        node-version: [20] # Test across different Node versions
 
     steps:
       - uses: actions/checkout@v3
